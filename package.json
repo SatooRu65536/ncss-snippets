@@ -3,6 +3,7 @@
   "displayName": "ncss-snippets",
   "description": "NCSS Snippets for VS Code",
   "version": "0.0.1",
+  "publisher": "SatooRu65536",
   "icon": "icons/icon.png",
   "repository": {
     "type": "git",
