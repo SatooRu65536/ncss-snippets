@@ -1,0 +1,65 @@
+{
+    "mainFunction": {
+        "prefix": "main",
+        "body": [
+            "#main {",
+            "    ${1:statement}",
+            "}",
+        ],
+        "description": "Main function statement."
+    },
+    "globalFunction": {
+        "prefix": "#",
+        "body": [
+            "#${1:name} [${2:args}] {",
+            "    ${2:statement}",
+            "}",
+        ],
+        "description": "Function statement."
+    },
+    "if": {
+        "prefix": ".if",
+        "body": [
+            ".if [$1]{",
+            "    ${2:statement}",
+            "}",
+        ],
+        "description": "If statement."
+    },
+    "else if": {
+        "prefix": ".else .if",
+        "body": [
+            ".else .if [$1]{",
+            "    ${2:statement}",
+            "}",
+        ],
+        "description": "Else if statement."
+    },
+    "else": {
+        "prefix": ".else",
+        "body": [
+            ".else [$1]{",
+            "    ${2:statement}",
+            "}",
+        ],
+        "description": "Else statement."
+    },
+    "while": {
+        "prefix": ".while",
+        "body": [
+            ".while [$1]{",
+            "    ${2:statement}",
+            "}",
+        ],
+        "description": "Else statement."
+    },
+    "group": {
+        "prefix": ".group",
+        "body": [
+            ".${1:group} {",
+            "    ${2:statement}",
+            "}",
+        ],
+        "description": "Group statement."
+    },
+}

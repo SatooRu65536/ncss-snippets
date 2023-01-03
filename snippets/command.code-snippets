@@ -1,0 +1,30 @@
+{
+    "content": {
+        "prefix": "content",
+        "body": [
+            "content: $1;",
+        ],
+        "description": "Output one or more strings."
+    },
+    "transform": {
+        "prefix": "transform",
+        "body": [
+            "transform: $1;",
+        ],
+        "description": "Assign to a variable."
+    },
+    "result": {
+        "prefix": "result",
+        "body": [
+            "result: $1;",
+        ],
+        "description": "Get the return value."
+    },
+    "return": {
+        "prefix": "return",
+        "body": [
+            "return: $1;",
+        ],
+        "description": "Specify return value."
+    },
+}

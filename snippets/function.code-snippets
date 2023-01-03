@@ -1,0 +1,23 @@
+{
+    "var": {
+        "prefix": "var",
+        "body": [
+            "var(${1:var-name})",
+        ],
+        "description": "Expand the value of a variable."
+    },
+    "arr": {
+        "prefix": "arr",
+        "body": [
+            "arr(${1:arr-name} ${2:index})",
+        ],
+        "description": "Get array values."
+    },
+    "push": {
+        "prefix": "push",
+        "body": [
+            "push(${1:arr-name} ${2:value})",
+        ],
+        "description": "Append array values."
+    },
+}

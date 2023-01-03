@@ -1,0 +1,44 @@
+{
+  "name": "ncss-snippets",
+  "displayName": "ncss-snippets",
+  "description": "NCSS Snippets for VS Code",
+  "version": "0.0.1",
+  "icon": "icons/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SatooRu65536/ncss-snippets"
+  },
+  "bugs": {
+    "url": "https://github.com/SatooRu65536/ncss-snippets/issues"
+  },
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "ncss",
+        "extensions": [
+          ".ncss"
+        ]
+      }
+    ],
+    "snippets": [
+      {
+        "language": "ncss",
+        "path": "./snippets/command.code-snippets"
+      },
+      {
+        "language": "ncss",
+        "path": "./snippets/function.code-snippets"
+      },
+      {
+        "language": "ncss",
+        "path": "./snippets/syntax.code-snippets"
+      }
+    ]
+  }
+}
