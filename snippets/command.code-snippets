@@ -27,4 +27,11 @@
         ],
         "description": "Specify return value."
     },
+    "break": {
+        "prefix": "break",
+        "body": [
+            "break: '';",
+        ],
+        "description": "Exit the loop."
+    },
 }
