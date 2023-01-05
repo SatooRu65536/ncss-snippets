@@ -1,5 +1,5 @@
 # ncss-snippets README
-[NCSS](https://github.com/SatooRu65536/ncss) snippets.
+[NCSS](https://github.com/ncss-project/ncss) snippets.
 
 ## LICENSE
 [MIT](./LICENSE)
